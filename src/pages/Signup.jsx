@@ -3,11 +3,11 @@ import SignupImage from "../assets/Signup.jpg";
 import { FaGoogle,MdOutlineRemoveRedEye,LuEyeOff } from "../utils/icons.js";
 const Signup = () => {
   return (
-    <section className="w-full flex">
-      <div className="w-1/2 sm:block hidden">
+    <section className="grid sm:grid-cols-2 grid-cols-1    w-full">
+      <div className="col-span-1 sm:block hidden">
         <img src={SignupImage} alt="img" />
       </div>
-      <div className="sm:w-1/2 flex items-center justify-center">
+      <div className="col-span-1 flex items-center justify-center">
         <div className="sm:min-w-sm sm:m-0 m-3 border-4 border-r-8 border-r-[#F04C4B] border-t-[#F04C4B] border-b-8 border-b-[#3938B8] border-l-[#3938B8] sm:p-7 p-4  rounded-3xl bg-gray-50">
           <p className="text-center text-2xl font-bold">Login</p>
           <form action="" className="">

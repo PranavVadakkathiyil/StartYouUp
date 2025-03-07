@@ -2,7 +2,7 @@ import React from "react";
 import logo from '../assets/StartupLogo.png'
 const Header = () => {
   return (
-    <header>
+    <header >
       <nav className="w-full flex items-center justify-between sm:px-18 sm:py-4 px-3 py-3 ">
        
          <div>
