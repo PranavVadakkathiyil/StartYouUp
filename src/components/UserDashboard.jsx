@@ -7,7 +7,7 @@ import Meet from "./Meet";
 
 const UserDashboard = () => {
   return (
-    <section className="sm:w-[95%] w-[85%] border h-[90vh]">
+    <section className="sm:w-[95%] w-[85%] border h-[90vh] overflow-y-auto">
       <Routes>
       <Route index element={<AddInfo />} />
         <Route path="/addinfo" element={<AddInfo />} />
